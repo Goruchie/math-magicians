@@ -20,6 +20,7 @@ To get a local copy up and running follow these simple example steps.
 run the following commands in your terminal
 
 - git clone https://github.com/Goruchie/math-magicians-setup.git
+- install npm with the 'npm install' command
 - cd math-magicians/
 - git checkout dev
 
