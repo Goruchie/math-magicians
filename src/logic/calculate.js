@@ -131,5 +131,3 @@ export default function calculate(obj, buttonName) {
     operation: buttonName,
   };
 }
-
-export { calculate };
