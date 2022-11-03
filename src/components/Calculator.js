@@ -37,21 +37,21 @@ class Calculator extends React.Component {
           <button name="9" className="buttonsEvt" type="button" onClick={this.onClickHandler}>9</button>
           <button name="*" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>x</button>
 
-            <button name="4" className="buttonsEvt" type="button" onClick={this.onClickHandler}>4</button>
-            <button name="5" className="buttonsEvt" type="button" onClick={this.onClickHandler}>5</button>
-            <button name="6" className="buttonsEvt" type="button" onClick={this.onClickHandler}>6</button>
-            <button name="-" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>-</button>
-            <button name="1" className="buttonsEvt" type="button" onClick={this.onClickHandler}>1</button>
-            <button name="2" className="buttonsEvt" type="button" onClick={this.onClickHandler}>2</button>
-            <button name="3" className="buttonsEvt" type="button" onClick={this.onClickHandler}>3</button>
-            <button name="+" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>+</button>
-            <button name="0" type="button" className="div2 buttonsEvt" onClick={this.onClickHandler}>0</button>
-            <button name="." className="buttonsEvt" type="button" onClick={this.onClickHandler}>.</button>
-            <button name="=" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>=</button>
-          </div>
+          <button name="4" className="buttonsEvt" type="button" onClick={this.onClickHandler}>4</button>
+          <button name="5" className="buttonsEvt" type="button" onClick={this.onClickHandler}>5</button>
+          <button name="6" className="buttonsEvt" type="button" onClick={this.onClickHandler}>6</button>
+          <button name="-" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>-</button>
+          <button name="1" className="buttonsEvt" type="button" onClick={this.onClickHandler}>1</button>
+          <button name="2" className="buttonsEvt" type="button" onClick={this.onClickHandler}>2</button>
+          <button name="3" className="buttonsEvt" type="button" onClick={this.onClickHandler}>3</button>
+          <button name="+" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>+</button>
+          <button name="0" type="button" className="div2 buttonsEvt" onClick={this.onClickHandler}>0</button>
+          <button name="." className="buttonsEvt" type="button" onClick={this.onClickHandler}>.</button>
+          <button name="=" type="button" className="orange-buttons buttonsEvt" onClick={this.onClickHandler}>=</button>
         </div>
-      );
-    }
+      </div>
+    );
+  }
 }
 
 export default Calculator;
