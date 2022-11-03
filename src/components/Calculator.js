@@ -11,7 +11,7 @@ class Calculator extends React.PureComponent {
     return (
       <div className="container">
         <div className="keypad">
-          <input className="div1" type="text" placeholder="0s" />
+          <input className="div1" type="number" placeholder="0" />
           <button type="button">AC</button>
           <button type="button">+/-</button>
           <button type="button">%</button>
