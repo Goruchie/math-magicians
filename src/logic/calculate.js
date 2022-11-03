@@ -132,4 +132,4 @@ export default function calculate(obj, buttonName) {
   };
 }
 
-export { calculate, isNumber };
+export { calculate };
