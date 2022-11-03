@@ -32,47 +32,47 @@ class Calculator extends React.PureComponent {
       add: '+',
       equal: '=',
     };
-     }
+  }
+
     handleClick = (event) => {
       const buttonNum = event.target.name;
       this.obj = calculate(this.obj, buttonNum);
-      if(isNumber(buttonNum) || buttonNum === '+/-') {
-        this.setState({ toDisplay: this.obj.next || 0});
+      if (isNumber(buttonNum) || buttonNum === '+/-') {
+        this.setState({ toDisplay: this.obj.next || 0 });
       } else {
-        this.setState({ toDisplay: this.obj.total || 0});
+        this.setState({ toDisplay: this.obj.total || 0 });
       }
     };
-  
 
-  render() {
-    const { toDisplay } = this.state;
-    return (
-      <div className="container">
-        <div className="keypad">          
-          <p className="div1 buttonsEvt">{ toDisplay }</p>          
-          <button name={this.buttonsEvt.AC} className='buttonsEvt' type="button" onClick={this.handleClick}>AC</button>
-          <button name={this.buttonsEvt.plusminus} className='buttonsEvt' type="button" onClick={this.handleClick}>+/-</button>
-          <button name={this.buttonsEvt.percent} className='buttonsEvt' type="button" onClick={this.handleClick}>%</button>
-          <button name={this.buttonsEvt.divide} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>&#247;</button>
-          <button name={this.buttonsEvt.seven} className='buttonsEvt' type="button" onClick={this.handleClick}>7</button>
-          <button name={this.buttonsEvt.eight} className='buttonsEvt' type="button" onClick={this.handleClick}>8</button>
-          <button name={this.buttonsEvt.nine} className='buttonsEvt' type="button" onClick={this.handleClick}>9</button>
-          <button name={this.buttonsEvt.multiply} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>x</button>
-          <button name={this.buttonsEvt.four} className='buttonsEvt' type="button" onClick={this.handleClick}>4</button>
-          <button name={this.buttonsEvt.five} className='buttonsEvt' type="button" onClick={this.handleClick}>5</button>
-          <button name={this.buttonsEvt.six} className='buttonsEvt' type="button" onClick={this.handleClick}>6</button>
-          <button name={this.buttonsEvt.substract} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>-</button>
-          <button name={this.buttonsEvt.one} className='buttonsEvt' type="button" onClick={this.handleClick}>1</button>
-          <button name={this.buttonsEvt.two} className='buttonsEvt' type="button" onClick={this.handleClick}>2</button>
-          <button name={this.buttonsEvt.three} className='buttonsEvt' type="button" onClick={this.handleClick}>3</button>
-          <button name={this.buttonsEvt.add} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>+</button>
-          <button name={this.buttonsEvt.zero} type="button" className="div2 buttonsEvt" onClick={this.handleClick}>0</button>
-          <button name={this.buttonsEvt.decimal} className='buttonsEvt' type="button" onClick={this.handleClick}>.</button>
-          <button name={this.buttonsEvt.equal} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>=</button>
+    render() {
+      const { toDisplay } = this.state;
+      return (
+        <div className="container">
+          <div className="keypad">
+            <p className="div1 buttonsEvt">{ toDisplay }</p>
+            <button name={this.buttonsEvt.AC} className="buttonsEvt" type="button" onClick={this.handleClick}>AC</button>
+            <button name={this.buttonsEvt.plusminus} className="buttonsEvt" type="button" onClick={this.handleClick}>+/-</button>
+            <button name={this.buttonsEvt.percent} className="buttonsEvt" type="button" onClick={this.handleClick}>%</button>
+            <button name={this.buttonsEvt.divide} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>&#247;</button>
+            <button name={this.buttonsEvt.seven} className="buttonsEvt" type="button" onClick={this.handleClick}>7</button>
+            <button name={this.buttonsEvt.eight} className="buttonsEvt" type="button" onClick={this.handleClick}>8</button>
+            <button name={this.buttonsEvt.nine} className="buttonsEvt" type="button" onClick={this.handleClick}>9</button>
+            <button name={this.buttonsEvt.multiply} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>x</button>
+            <button name={this.buttonsEvt.four} className="buttonsEvt" type="button" onClick={this.handleClick}>4</button>
+            <button name={this.buttonsEvt.five} className="buttonsEvt" type="button" onClick={this.handleClick}>5</button>
+            <button name={this.buttonsEvt.six} className="buttonsEvt" type="button" onClick={this.handleClick}>6</button>
+            <button name={this.buttonsEvt.substract} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>-</button>
+            <button name={this.buttonsEvt.one} className="buttonsEvt" type="button" onClick={this.handleClick}>1</button>
+            <button name={this.buttonsEvt.two} className="buttonsEvt" type="button" onClick={this.handleClick}>2</button>
+            <button name={this.buttonsEvt.three} className="buttonsEvt" type="button" onClick={this.handleClick}>3</button>
+            <button name={this.buttonsEvt.add} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>+</button>
+            <button name={this.buttonsEvt.zero} type="button" className="div2 buttonsEvt" onClick={this.handleClick}>0</button>
+            <button name={this.buttonsEvt.decimal} className="buttonsEvt" type="button" onClick={this.handleClick}>.</button>
+            <button name={this.buttonsEvt.equal} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>=</button>
+          </div>
         </div>
-      </div>
-    );
-  }
+      );
+    }
 }
 
 export default Calculator;
