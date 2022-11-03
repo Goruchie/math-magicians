@@ -51,8 +51,8 @@ class Calculator extends React.PureComponent {
           <div className="keypad">
             <p className="div1 buttonsEvt">{ toDisplay }</p>
             <button name={this.buttonsEvt.AC} className="buttonsEvt" type="button" onClick={this.handleClick}>AC</button>
-            <button name={this.buttonsEvt.plusminus} className="buttonsEvt" type="button" onClick={this.handleClick}>+/-</button>
-            <button name={this.buttonsEvt.percent} className="buttonsEvt" type="button" onClick={this.handleClick}>%</button>
+            <button name="+/-" className="buttonsEvt" type="button" onClick={this.handleClick}>+/-</button>
+            <button name="%" className="buttonsEvt" type="button" onClick={this.handleClick}>%</button>
             <button name={this.buttonsEvt.divide} type="button" className="orange-buttons buttonsEvt" onClick={this.handleClick}>&#247;</button>
             <button name={this.buttonsEvt.seven} className="buttonsEvt" type="button" onClick={this.handleClick}>7</button>
             <button name={this.buttonsEvt.eight} className="buttonsEvt" type="button" onClick={this.handleClick}>8</button>
