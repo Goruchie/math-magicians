@@ -11,7 +11,9 @@
   border: 1px solid rgb(214, 214, 214);
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 5; }
+.div1 { grid-area: 1 / 1 / 2 / 5;
+  text-align: end;
+  font-size: 20px; }
 .div2 { grid-area: 6 / 1 / 7 / 3; }
 
 input {
@@ -20,9 +22,7 @@ input {
 }
 
 input::placeholder {
-  color: rgb(255, 255, 255);
-  text-align: end;
-  font-size: 20px;
+  color: rgb(255, 255, 255);  
 }
 
 button {
