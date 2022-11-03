@@ -19,8 +19,10 @@ input {
   background-color: rgb(121, 121, 121);
 }
 
-input:placeholder-shown {
-  color: beige;
+input::placeholder {
+  color: rgb(255, 255, 255);
+  text-align: end;
+  font-size: 20px;
 }
 
 button {
