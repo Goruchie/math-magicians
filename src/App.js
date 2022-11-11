@@ -1,6 +1,6 @@
 import React from 'react';
-import Calculator from './pages/Calculator';
 import { NavLink } from 'react-router-dom';
+import Calculator from './pages/Calculator';
 
 class App extends React.PureComponent {
   constructor(props) {
