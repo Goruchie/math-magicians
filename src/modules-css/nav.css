@@ -1,0 +1,27 @@
+.header {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10%;
+}
+
+.link-item {
+  font-size: 20px;
+}
+

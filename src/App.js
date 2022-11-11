@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import Calculator from './pages/Calculator';
 
 class App extends React.PureComponent {
   constructor(props) {
@@ -8,7 +8,11 @@ class App extends React.PureComponent {
   }
 
   render() {
-    return <Calculator />;
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
   }
 }
 
