@@ -1,0 +1,21 @@
+.welcome {
+  margin: 5%;
+  font-size: 30px;
+}
+
+.paragraph-one {
+  margin: 5%;
+  margin-bottom: 0%;
+  font-size: 20px;
+}
+
+.paragragh-two {
+  margin: 5%;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+.home-cont {
+  margin-left: auto;
+  margin-right: auto;
+}

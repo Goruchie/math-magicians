@@ -40,7 +40,7 @@ run the following commands in your terminal
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Goruchie/math-magicians-setup/issues).
+Feel free to check the [issues page](https://github.com/Goruchie/math-magicians/issues).
 
 ## Acknowledgments
 
